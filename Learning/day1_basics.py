@@ -17,17 +17,20 @@ version = 1.2
 
 # Boolean
 is_active = True
-is_not_active = False
 
 print(company,devices,version,is_active)
 
 name = input("Enter your name: ")
 print("Welcome,", name)
 
-age = int(input("Enter age: "))
+age = float(input("Enter age: "))
 print("Your age is", age)
 
-if is_not_active:
-    print("Good")
-else:
+if age > 30:
     print("Bad")
+elif age < 30:
+    print("Good")
+elif age == 30:
+    print("chala jaa")
+
+
