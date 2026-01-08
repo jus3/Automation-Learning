@@ -1,0 +1,3 @@
+login
+payment_fail
+device_reset
