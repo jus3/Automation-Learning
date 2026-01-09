@@ -7,7 +7,7 @@ is_qa_engineer = True
 print(name,year_of_experience,is_qa_engineer)
 
 # String
-company = "ecobee"
+company = "facebook"
 
 # Integer
 devices = 3
@@ -31,6 +31,6 @@ if age > 30:
 elif age < 30:
     print("Good")
 elif age == 30:
-    print("chala jaa")
+    print("Bachelor Age")
 
 

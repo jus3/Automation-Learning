@@ -4,16 +4,16 @@
 #
 #
 # # Project Oriented
-# devices = ["hi", "furnace", "odu"]
+# devices = ["hi", "hello", "hey"]
 #
 # for device in devices:
 #     print(f"Validating device: {device}")
-#     if device == "thermostat": print("Thermostat device")
-#     elif device == "furnace": print("Furnace device")
-#     elif device == "odu": print("Odu device")
+#     if device == "hi": print("Apple device")
+#     elif device == "hello": print("Android device")
+#     elif device == "hey": print("Blackberry device")
 #     else:
 #         print("Unknown device")
-#from Learning.day1_basics import age
+#from Python Learning.day1_basics import age
 
 # response = 3
 #
