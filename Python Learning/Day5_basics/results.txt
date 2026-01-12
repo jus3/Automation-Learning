@@ -1,0 +1,3 @@
+login : PASSED
+payment_fail : FAILED
+device_reset : PASSED
