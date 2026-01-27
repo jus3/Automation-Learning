@@ -6,6 +6,7 @@ def test_open_playwright_site(page: Page):
 
     # page.get_by_text("Get started").click()
     page.get_by_title("Google")
-    page.get_by_role("combobox", name="Search").type("hello world")
+    page.get_by_role("button", name="Google apps").hover()
+    page.get_by_role("combobox", name="Search").fill("hello world")
     page.get_by_label("Google Search").first.click()
     # page.get_by_test_id("login-btnI").first.click()
